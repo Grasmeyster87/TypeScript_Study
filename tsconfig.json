@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs", // створювати в js commonjs модулі
+        "noImplicitAny": true, //
+        "removeComments": true, //
+        "sourceMap": true, // створювати файли для відстеження помилок
+        "outDir": "./dist" //  зберігати результати транспіляції
+    },
+    "include": ["./src/**/*.ts"], // включити в транспиляцию всі файли з розширенням ts
+    "exclude": ["node_modules"] // ігнорувати
+}

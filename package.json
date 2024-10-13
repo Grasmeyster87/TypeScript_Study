@@ -1,0 +1,15 @@
+{
+    "name": "ts_codeua",
+    "version": "1.0.0",
+    "description": "",
+    "main": "hello-world.js",
+    "scripts": {
+        "start": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^5.6.3"
+    }
+}
