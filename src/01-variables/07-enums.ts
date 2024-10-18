@@ -46,7 +46,6 @@ console.log(c4);
 
 function drawImage1(fruit: number) {
     const domElement: HTMLImageElement = document.createElement('img');
-
     switch (fruit) {
         case 0:
             domElement.src = '/images/apple.jpg';
