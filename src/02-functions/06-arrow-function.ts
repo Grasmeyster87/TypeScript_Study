@@ -12,11 +12,12 @@ const incrementArrow1 = (x: number) => {
 
 const incrementArrow2 = (x: number) => x + 1;
 
-const incrementArrow3 = (x) => x + 1;
+//const incrementArrow3 = (x) => x + 1;
 
 // приклад використання стрілочних функцій як яункцій зворотнього виклику
 const myFunc = (callback: (x: number) => number): void => {
     callback(10);
+    console.log('06-arrow-function');
 };
 
 myFunc((x) => x + 1);

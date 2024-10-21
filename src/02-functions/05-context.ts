@@ -12,8 +12,8 @@ const someObj = {
 };
 someObj.testFunc(); // someObj
 
-const someInstance = new test1(); //new instance
-console.log(someInstance);
+//const someInstance = new test1(); //new instance
+//console.log(someInstance);
 
 // Встановлення контексту функції, що викликається
 function test2(x: number, y: number) {

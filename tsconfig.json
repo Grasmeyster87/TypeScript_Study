@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "module": "commonjs", // створювати в js commonjs модулі
-        "noImplicitAny": true, //
-        "removeComments": true, //
-        "sourceMap": true, // створювати файли для відстеження помилок
+        "module": "commonjs", // Як будуть генеруватись модулі
+        "noImplicitAny": true, // Не можа використувати any
+        "removeComments": true, // видалити коментарі
+        "sourceMap": true, // створювати MAP файли для відстеження помилок
         "outDir": "./dist", //  зберігати результати транспіляції
         "lib": ["dom", "es2015"] // підключення бібліотек
     },
